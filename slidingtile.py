@@ -12,9 +12,12 @@ print("*type a for sliding left")
 print("*type giveup if you wish to discontinue")
 print("******************************")
 print("")
-print("*type the parts of the puzzle")
+print("*type the parts of the puzzle [remember the numbers should be from 1-8, and dont forget to leave a space] ")
 a=[]
 s=[]
+
+#input
+# need to add a condition to identify numbers and a check if numbers are <9 
 
 for i in range(3):
 	e=input()
