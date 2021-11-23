@@ -23,7 +23,7 @@ print("*type a for sliding left")
 print("*type giveup if you wish to discontinue")
 print("******************************")
 print("")
-print("*type the parts of the puzzle [remember the numbers should be from 1-8, and dont forget to leave a space] ")
+print("*type the parts of the puzzle [remember the numbers should be from 1-8, dont leave a space between the numbers, and press ENTER for the next row] ")
 a=[]
 s=[]
 
@@ -99,7 +99,7 @@ def left(a):
 while check():
     prnt()
     #print("ci=",ci,"cj=",cj)
-    cm=input()
+    cm=input(">>")
     if cm=='d':
         right(a[ci])
 
